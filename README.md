@@ -1,0 +1,14 @@
+# Scrimba Learning Journey 🚀
+
+This repository is a central hub for all my projects completed through Scrimba's career paths and courses. It is organized by pathway and technology.
+
+## 📂 Project Structure
+
+### Frontend Career Path
+- **React**
+  - [Assembly: Endgame](https://github.com/StevenRen5/scrimba/tree/main/frontend-pathway/react/assembly-endgame) - A word-guessing game built with React and CSS. 
+    - [Live Demo](https://scrimba-frontendpath-assembly-endgame.vercel.app/)
+
+## 🛠️ Technologies
+- Frontend: HTML5, CSS3, JavaScript, React.js
+- Tools: Git, Vercel
