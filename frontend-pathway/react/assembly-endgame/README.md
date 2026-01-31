@@ -4,6 +4,7 @@ A word-guessing game where you must guess the secret word within 8 attempts to k
 
 ## 🛠️ Built With
 - **React**: A single-component application (`App`) using the `useState` hook for core game logic.
+- **JavaScript (ES6+)**: Utilized array methods like `map`, `filter`, and `includes` to manage game state and logic.
 - **CSS**: Custom styling for the game board and interactive elements.
 - **clsx**: For dynamic and conditional CSS class management.
 - **React Confetti**: Added for a visual celebration when the game is won.
