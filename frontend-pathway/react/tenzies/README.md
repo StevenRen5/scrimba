@@ -10,3 +10,5 @@ An interactive dice game where players roll to match all numbers, featuring acce
 - **Accessibility**: Real-time announcements for screen readers and automatic keyboard focus management.
 - **Game Logic**: Ability to freeze specific dice between rolls to reach a winning state.
 - **Interactive UI**: Responsive dice elements with smooth transitions.
+
+[Live Demo](https://scrimba-frontendpath-tenzies.vercel.app/)
