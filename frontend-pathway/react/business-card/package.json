@@ -1,0 +1,18 @@
+{
+  "name": "Scrim-s04js4j",
+  "description": "https://scrimba.com/learn-react-c0e/~010/s05guvn18f/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "*"
+  }
+}

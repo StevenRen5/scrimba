@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body { 
+    background-color: #23252C;
+    color: #DCDCDC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#root {
+    width: 317px;
+    border-radius: 1px;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+/* HEADER SECTION */
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    background-color: #1A1B21;
+}
+
+header img.profile-pic {
+    width: 317px;
+    height: 317px;
+    object-fit: cover;
+    display: block; /*remove extra space below the img */
+}
+
+
+header h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5625rem;
+}
+
+header h2 {
+    color: #F3BF99;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+header a {
+    font-size: 0.6rem;
+    text-decoration: none; /*removes underline for a tags */
+    color: inherit;
+    display: block; /* to apply hover effects **/
+    transition: transform 0.2s ease-in-out;
+}
+
+header a:hover {
+    transform: scale(1.1);
+}
+
+header .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+header .button-container button {
+    font-size: 0.875rem;
+    font-family: inherit;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 13px 9px 11px;
+    width: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+header .button-container button .email-pic, header .button-container button .linkedin-pic {
+    width: 20px;
+}
+
+/* ABOUT SECTION */
+
+main {
+    background-color: #1A1B21;
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 0.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #161619;
+    height: 64px;
+}
+
+footer a {
+    background-color: #918E9B;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+footer a:hover {
+    background-color: white;
+}
+
+footer img {
+    width: 25px;
+}
+
+
+
+
+
+
+
