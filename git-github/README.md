@@ -1,4 +1,3 @@
 ## Git & GitHub
 
-Learning the basics of Git & GitHub
-From Scrimba
+Learning the basics of Git & GitHub from Scrimba
